@@ -1,0 +1,38 @@
+site_name: 萧山，潮起又潮落
+site_description: 主人公谢安离开家乡来到萧山，先后做过汇文学校的后勤管理人员、航海集团的技术人员、冠信公司和国营食品公司的销售部经理，其间遇到初恋情人陈靓、后来的妻子何敏、红颜知己杭潇以及忘年交王总等人。谢安在错综复杂的社会中完成了工作的变迁、走完了恋爱和婚姻的必经之路，并一度归隐到侗族乡村，最后又回到萧山继续创业。 小说到目前为止尚未全部收尾。对主人公谢安的命运，作者目前的设想是：谢安应该会在商场拼搏出一番天地，但安排他在三四年内脱离现实社会，去侗族乡村办学校，回归到原来汇文学校时那个纯真的他。不过，最后谢安还是会回到现实生活中来，因为生活还是要继续，而去侗族毕竟只是他的一厢情愿，他的幻想。
+site_author: 钱江赶潮人(sunrise1999002)
+site_url: 'https://sunrise1999002.github.io'
+theme:
+  name: material
+  language: zh
+  font:
+    text: "Noto Serif SC"
+  logo: assets/waves.png
+  favicon: assets/waves.png
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - header.autohide
+  custom_dir: overrides
+copyright: Copyright &copy; 1998-2024 [钱江赶潮人(sunrise1999002)](https://github.com/sunrise1999002)
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+plugins:
+  - search:
+      lang: zh
+extra:
+  homepage: ''
+  generator: false
+
+nav:
+  - 'index.md'
+  - 'about.md'
