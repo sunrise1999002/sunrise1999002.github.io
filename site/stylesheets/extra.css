@@ -1,0 +1,4 @@
+.md-nav--primary,
+.md-nav--secondary {
+    display: none; /* Completely hide the elements initially */
+}
